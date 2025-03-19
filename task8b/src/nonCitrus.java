@@ -8,4 +8,11 @@ public class nonCitrus extends fruitObject {
         this.VitaminType = VitaminType;
         this.Color = Color;
     }
-}
+    @Override
+    public void displayFruitDetails() {
+        System.out.println(" the fruit name is " + name);
+        System.out.println(" the banana's shape is  " + FruitShape);
+        System.out.println(" Banana is rich in vitamin " + VitaminType);
+        System.out.println(" The color of Banana is " + Color);
+    }
+    }
